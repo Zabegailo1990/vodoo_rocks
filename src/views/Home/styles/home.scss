@@ -1,0 +1,27 @@
+.home{
+    position: relative;
+    background-color: rgb(234, 235, 247);
+    min-height: 100vh;
+    padding: 20px 0;
+
+    &__search{
+        margin-bottom: 60px;
+    }
+
+    &__container{
+        margin: 0 auto;
+        max-width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    &__notification{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -100%);
+        font-size: 35px;
+    }
+}
